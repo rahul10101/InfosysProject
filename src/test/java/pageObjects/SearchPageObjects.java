@@ -16,7 +16,7 @@ public class SearchPageObjects extends Interact{
  
  private By searchTextBox = By.xpath("//input[@id='sb_form_q']"); 
  private By seachButton = By.xpath("//label[@class='search icon tooltip']");
- private By urlOfInfosys = By.xpath("//h2[@class=' b_topTitle']");
+ private By urlOfInfosys = By.xpath("//a[text()='Infosys - Consulting | IT Services | Digital Transformation']");
  private By infosysHambergerMenu = By.xpath("//div[@class='burger']");
  private By hambergerServices = By.xpath("//a[@title='Services']");
  private By testingTitle = By.xpath("//a[@title='Testing']");
